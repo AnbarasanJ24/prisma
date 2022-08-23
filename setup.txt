@@ -1,0 +1,10 @@
+npm init -y
+npm i --save-dev prisma typescript @types/node nodemon ts-node
+npx prisma init --datasource-provider postgresql
+
+Run prisma db pull to turn your database schema into a Prisma schema.
+Run prisma generate to generate the Prisma Client. You can then start querying your database.
+Install Prisma on Market place else npx prisma format
+
+Create Schema on Dev 
+npx prisma migrate dev --name init  
